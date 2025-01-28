@@ -20,7 +20,7 @@ xsi:noNamespaceSchemaLocation="structure/pdgfSchema.xsd">
 	<rng name="PdgfDefaultRandom"/>
 
 	<!--Default Scale factor for all tables -->
-	<property name="${SF}" type="double">10</property>
+	<property name="${SF}" type="double">5000</property>
 	<!--Note: if a table has a size of ${SF}=5000 (e.g. 5000 rows) and you decide to set the ${SF} to 10000, 
 	then the first 5000 lines will be the same as for ${SF}=5000. So by increasing the ${SF} you can expand the table
 	HOWEVER: some custom Generator plugins may decide to base their output on the value of the ${SF}. 
